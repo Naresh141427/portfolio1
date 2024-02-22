@@ -17,13 +17,11 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url("./images/background.png");
-    background-size: cover;
-    background-position: center;
+    text-align: center;
 }
 
 .container {
-    padding: 10px 10%;
+    padding: 20px 10%;
 }
 
 nav {
@@ -31,6 +29,29 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+nav h2 {
+    color: white;
+    font-size: 45px;
+}
+
+nav h2 span {
+    color: #ff004f;
+    font-style: oblique;
+}
+
+nav h2 {
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+nav h2 span {
+    color: #ff004f;
+    font-weight: bold;
+
 }
 
 .logo {
@@ -98,6 +119,7 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 img {
+    height: 80%;
     width: 100%;
     border-radius: 15px;
 }
@@ -158,7 +180,6 @@ nav ul li a:hover::after {
 .tab-contents.active-content {
     display: block;
 }
-
 
 /* -------services-------- */
 
@@ -223,6 +244,7 @@ nav ul li a:hover::after {
 
 .work {
     border-radius: 10px;
+    border: 1px solid transparent;
     position: relative;
     overflow: hidden;
 
@@ -380,13 +402,13 @@ nav .fa-solid {
 
 /* ----------css for small screen --------- */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 880px) {
     #header {
-        background-image: url("images/phone-background.png");
+        height: fit-content;
     }
 
     .header-text {
-        margin-top: 80%;
+        margin-top: 30%;
         font-size: 16px;
     }
 
@@ -434,6 +456,14 @@ nav .fa-solid {
 
     .about-col-1 {
         margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-col-1 img {
+
+        height: 300px;
+        width: 300px;
     }
 
     .about-col-2 {
