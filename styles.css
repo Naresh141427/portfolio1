@@ -488,3 +488,18 @@ nav .fa-solid {
     margin-top: -40px;
     display: block;
 }
+
+.note {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.spec-text {
+    color: #ff004f;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: 10px;
+}

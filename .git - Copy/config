@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/naresh1427/portfolio.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "nareshportfolio"]
+	url = https://github.com/Naresh141427/portfolio1.git
+	fetch = +refs/heads/*:refs/remotes/nareshportfolio/*
+[branch "main"]
+	remote = nareshportfolio
+	merge = refs/heads/main
